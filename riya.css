@@ -1,0 +1,132 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #0a0707f1;
+    background-color: #ece5e3f3;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #eee9e9;
+    color: #251e1e;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #eee4e3 3px solid;
+}
+
+header a {
+    color: #1b1414;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header h1 {
+    float: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header nav {
+    float: center;
+    margin-top: 10px;
+}
+
+#hero {
+    background: #f0ebeb;
+    color: #271c1b;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero h2 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+}
+
+#about, #partners {
+    padding: 40px 0;
+    text-align: center;
+}
+
+#about h2, #partners h2 {
+    margin-bottom: 20px;
+}
+
+#about p, #partners p {
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    color: #1a1714;
+}
+
+.partners-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.partner-card {
+    background: #eee8e8;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(214, 188, 184, 0.1);
+    text-align: center;
+    flex: 1;
+}
+
+.partner-card img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.partner-card h3 {
+    margin-bottom: 10px;
+    color: #1d1716;
+}
+
+.partner-card p {
+    font-size: 0.9rem;
+    color: #0f0a0afb;
+}
+
+footer {
+    background: #f8eae8;
+    color: #0a0808fd;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #181312ee;
+    text-decoration: none;
+}
+	
